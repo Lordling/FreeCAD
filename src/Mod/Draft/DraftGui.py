@@ -2364,7 +2364,8 @@ class ScaleTaskPanel:
         return True
 
 if not hasattr(FreeCADGui,"draftToolBar"):
-    FreeCADGui.draftToolBar = DraftToolBar()
+    # FreeCADGui.draftToolBar = DraftToolBar()
+    pass
 #----End of Python Features Definitions----#
    
 if not hasattr(FreeCADGui,"Snapper"):

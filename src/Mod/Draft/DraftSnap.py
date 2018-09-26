@@ -1428,4 +1428,4 @@ if not hasattr(FreeCAD,"DraftWorkingPlane"):
     import WorkingPlane, Draft_rc
     FreeCAD.DraftWorkingPlane = WorkingPlane.plane()
     #print(FreeCAD.DraftWorkingPlane)
-    FreeCADGui.addIconPath(":/icons")
+    # FreeCADGui.addIconPath(":/icons")
